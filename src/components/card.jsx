@@ -5,7 +5,6 @@ import Detail from '../Detail'
 
 function card() {
   return (
-    <BrowserRouter>
       <div className='card-lost'>
         <div className='card-img'>
           <img src="../src/assets/cat.jpg" alt="" style={{width:'100%', height:'100%'}} />
@@ -19,7 +18,6 @@ function card() {
           </ul>
         </div>
       </div>
-    </BrowserRouter>
   )
 }
 

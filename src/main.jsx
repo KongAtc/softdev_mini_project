@@ -6,7 +6,6 @@ import Nav from './components/nav'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Nav />
     <App />
     
   </React.StrictMode>,

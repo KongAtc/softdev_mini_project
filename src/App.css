@@ -10,35 +10,21 @@
   background-color: #EEEEEE;
 }
 
-/* 
-.container{
-  height: 95vh;
-  border: 2px solid green;
-  display: flex;
-  justify-content: center;
-  
-}
-
-.card-lost{
-  border: 2px solid blue;
-  width: 70%;
-  height: 25%;
-  margin: 1em;
+#nav-bord{
+  color: salmon;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
-  
+  background-color: aquamarine;
+  /* padding: 0.2rem calc((100vw - 1000px) / 2); */
+  /* position:fixed; */
+  width: 100%;
+  z-index: 100;
 }
 
-ul.a{
-  list-style-type: circle;
+.nav-g{
+  /* border: '2px solid green'; */
+  width:'30%';
+  display:'flex';
+  justify-content:'space-around';
 }
-
-.card-img{
-  padding: 2px;
-  width: 40%;
-}
-
-.card-desc{
-  width: 50%;
-  
-} */
