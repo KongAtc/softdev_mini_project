@@ -8,7 +8,7 @@ function card_list({data}) {
   return (  
     <div className='container-cl'>
       {data.map((el_item)=>{
-                return <Card {...el_item} key={el_item.id_post}/>
+                return <Card {...el_item} key={el_item.id}/>
       })}
     </div>
   )
